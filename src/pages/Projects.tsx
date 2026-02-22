@@ -3,10 +3,38 @@ import { ArrowUpRight } from "lucide-react";
 
 const projects = [
   {
-    title: "Timez - Smart Bill Management",
-    description: "A comprehensive bill tracking and payment management application",
-    tags: ["React", "TypeScript", "Node.js", "Supabase", "Javascript"],
-    link: "#",
+    title: "Angels Bracelets",
+    description: "A jewelry brand website showcasing handcrafted bracelet collections.",
+    tags: ["React", "TypeScript", "Vite", "Tailwind CSS"],
+    link: "https://angelsbracelets.me",
+  },
+   {
+    title: "FunDay Services - Children's Entertainment",
+    description: "An elegant e-commerce platform for premium curtain solutions",
+    tags: [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Vite",
+      "Tailwind CSS",
+      "Javascript",
+    ],
+    link: "https://fundayservices.netlify.app/",
+  },
+  {
+    title: "Timez LTD - Agency Portfolio",
+    description: "A professional web development agency showcasing services and expertise",
+    tags: [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Javascript",
+      "Supabase",
+      "Framer Motion",
+      "Vite",
+      "Netlify",
+    ],
+    link: "https://timezltd.netlify.app/",
   },
   {
     title: "StudyMw - Study Planning Platform",
@@ -29,26 +57,12 @@ const projects = [
     link: "#",
   },
   {
-    title: "Timez LTD - Agency Portfolio",
-    description: "A professional web development agency showcasing services and expertise",
-    tags: [
-      "React",
-      "TypeScript",
-      "Tailwind CSS",
-      "Javascript",
-      "Supabase",
-      "Framer Motion",
-      "Vite",
-      "Netlify",
-    ],
-    link: "https://timezltd.netlify.app/",
+    title: "Timez - Smart Bill Management",
+    description: "A comprehensive bill tracking and payment management application",
+    tags: ["React", "TypeScript", "Node.js", "Supabase", "Javascript"],
+    link: "#",
   },
-  {
-    title: "Angels Bracelets",
-    description: "A jewelry brand website showcasing handcrafted bracelet collections.",
-    tags: ["React", "TypeScript", "Vite", "Tailwind CSS"],
-    link: "https://angelsbracelets.me",
-  },
+  
 ];
 
 const Projects = () => {
