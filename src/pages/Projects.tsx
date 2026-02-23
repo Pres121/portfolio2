@@ -10,7 +10,7 @@ const projects = [
   },
    {
     title: "FunDay Services - Children's Entertainment",
-    description: "An elegant e-commerce platform for premium curtain solutions",
+    description: "Children's entertainment service website offering fun and engaging activities for kids",
     tags: [
       "React",
       "TypeScript",
@@ -35,6 +35,19 @@ const projects = [
       "Netlify",
     ],
     link: "https://timezltd.netlify.app/",
+  },
+  {
+    title: "Noventra Solar - Solar Energy Solutions",
+    description: "A website for a solar energy company showcasing their products and services",
+    tags: [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Vite",
+      "Tailwind CSS",
+      "Javascript",
+    ],
+    link: "https://noventrasolar.netlify.app/",
   },
   {
     title: "StudyMw - Study Planning Platform",
