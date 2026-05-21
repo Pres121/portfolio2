@@ -85,4 +85,25 @@
   .section-padding {
     @apply px-6 md:px-12 lg:px-24 py-16 md:py-24;
   }
+
+  /* Animated background using the existing hero image */
+  .animated-bg {
+    transform-origin: center;
+    will-change: transform, opacity;
+    animation: bg-move 22s linear infinite;
+  }
+
+  @keyframes bg-move {
+    0% { transform: translate3d(0,0,0) scale(1.05); }
+    50% { transform: translate3d(-6%,2%,0) scale(1.12); }
+    100% { transform: translate3d(0,0,0) scale(1.05); }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .animated-bg {
+      animation: none !important;
+      transform: none !important;
+      opacity: 0.9;
+    }
+  }
 }
