@@ -28,11 +28,18 @@ const Navbar = () => {
                 to={item.path}
                 className={`relative px-4 py-2 text-sm font-medium rounded-full transition-colors duration-200 ${
                   active
-                    ? "bg-primary text-primary-foreground"
+                    ? "text-primary-foreground font-semibold"
                     : "text-muted-foreground hover:text-foreground"
                 }`}
               >
-                {item.label}
+                {active && (
+                  <motion.div
+                    layoutId="activeTabPill"
+                    className="absolute inset-0 bg-primary rounded-full shadow-[0_0_20px_hsl(var(--primary)/0.4)]"
+                    transition={{ type: "spring", stiffness: 380, damping: 30 }}
+                  />
+                )}
+                <span className="relative z-10">{item.label}</span>
               </Link>
             );
           })}
